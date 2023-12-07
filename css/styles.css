@@ -477,12 +477,13 @@ ul {
   width: 264px;
   height: 40px;
   font-size: 12px;
-  line-height: 1.5;
+  line-height: 2;
   letter-spacing: 0.04em;
   color: #fff;
   border-radius: 4px;
   border: 1px solid #fff;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .form-subscribe-input::placeholder {
@@ -508,7 +509,7 @@ ul {
   border-radius: 4px;
   background: #4d5ae5;
   transition: background-color 250ms linear;
-
+  cursor: pointer;
   /* Button Text */
   font-size: 16px;
   font-weight: 500;
@@ -584,7 +585,7 @@ ul {
 }
 .modal-btn-close:hover .modal-btn-close-icone,
 .modal-btn-close:focus .modal-btn-close-icone {
-  fill: #ffffff;
+  background-color: #404bbf;
   border: none;
 }
 .modal-close-btn:hover,
@@ -758,6 +759,7 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 
 .modal-form-submit-btn:hover .modal-form-submit-btn:focus {
