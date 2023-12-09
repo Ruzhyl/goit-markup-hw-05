@@ -482,8 +482,7 @@ ul {
   color: #fff;
   border-radius: 4px;
   border: 1px solid #fff;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  filter: box-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .form-subscribe-input::placeholder {
