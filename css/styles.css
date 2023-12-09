@@ -462,7 +462,6 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
 }
 
 .form-subscrible {
@@ -561,6 +560,7 @@ ul {
   padding: 72px 24px 24px 24px;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
+  margin-bottom: 8px;
 }
 .modal-close-btn-icon {
   fill: #2e2f42;
