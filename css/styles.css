@@ -508,6 +508,7 @@ ul {
   border-radius: 4px;
   background: #4d5ae5;
   transition: background-color 250ms linear;
+  cursor: pointer;
 
   /* Button Text */
   font-size: 16px;
