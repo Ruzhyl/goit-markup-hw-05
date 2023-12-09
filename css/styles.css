@@ -462,12 +462,12 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .form-subscrible {
   display: flex;
   gap: 24px;
-  margin-bottom: 8px;
 }
 
 .form-subscribe-input {
