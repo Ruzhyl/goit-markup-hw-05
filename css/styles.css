@@ -59,7 +59,6 @@ ul {
   letter-spacing: 0.004em;
   color: #fff;
   background-color: #4d5ae5;
-  cursor: pointer;
 }
 .svg-container {
   display: flex;
@@ -482,7 +481,8 @@ ul {
   color: #fff;
   border-radius: 4px;
   border: 1px solid #fff;
-  filter: box-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .form-subscribe-input::placeholder {
@@ -508,7 +508,7 @@ ul {
   border-radius: 4px;
   background: #4d5ae5;
   transition: background-color 250ms linear;
-  cursor: pointer;
+
   /* Button Text */
   font-size: 16px;
   font-weight: 500;
@@ -581,6 +581,7 @@ ul {
   outline: 0px solid transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 .modal-btn-close:hover .modal-btn-close-icone,
 .modal-btn-close:focus .modal-btn-close-icone {
@@ -751,14 +752,13 @@ ul {
   color: #fff;
   text-align: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+  cursor: pointer;
   /* Button Text */
 
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  cursor: pointer;
 }
 
 .modal-form-submit-btn:hover .modal-form-submit-btn:focus {
