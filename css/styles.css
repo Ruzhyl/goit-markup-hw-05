@@ -554,6 +554,7 @@ ul {
   width: 408px;
   min-height: 584px;
   border-radius: 4px;
+
   flex-shrink: 0;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: #fcfcfc;
@@ -577,6 +578,7 @@ ul {
   right: 24px;
   border-radius: 50%;
   line-height: 0;
+
   background-color: #e7e9fc;
   border: 1px solid rgba(0, 0, 0, 0.1);
   outline: 0px solid transparent;
@@ -584,8 +586,9 @@ ul {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
-.modal-btn-close:hover .modal-btn-close-icone,
-.modal-btn-close:focus .modal-btn-close-icone {
+
+.modal-close-btn:hover .modal-close-btn-icon,
+.modal-close-btn:focus .modal-close-btn-icon {
   fill: #ffffff;
   border: none;
 }
@@ -595,6 +598,7 @@ ul {
   border: none;
   fill: #ffffff;
 }
+
 .modal-close-btn:hover > svg,
 .modal-close-btn:focus > svg {
   fill: #ffffff;
